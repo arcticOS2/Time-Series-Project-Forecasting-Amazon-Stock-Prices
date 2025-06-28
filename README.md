@@ -14,8 +14,8 @@ This project uses classical time series models — **ARIMA** and **ARIMAX** — 
 
 ## 📂 Data Sources
 
-- **Amazon Stock Data**: Downloaded from [Yahoo Finance](https://finance.yahoo.com/)
-- **Google Trends**: Retrieved from [Google Trends](https://trends.google.com/) for the keyword _"Amazon"_
+- **Amazon Stock Data**: Downloaded from [Kaggle](https://www.kaggle.com/datasets/aenes95/amazon-stock-price-prediction)
+- **Google Trends**: Retrieved from [Google Trends](https://trends.google.com)  for the keyword _"Amazon"_
 
 ---
 
@@ -32,7 +32,7 @@ This project uses classical time series models — **ARIMA** and **ARIMAX** — 
 
 1. Data Collection and Merging  
 2. Stationarity Testing using ADF  
-3. ARIMA Modeling (order selection using ACF, PACF, AIC)  
+3. ARIMA Modeling (order selection using ACF, PACF)  
 4. ARIMAX Modeling with Google Trends as exogenous regressor  
 5. Forecasting & Evaluation on Test Set  
 
