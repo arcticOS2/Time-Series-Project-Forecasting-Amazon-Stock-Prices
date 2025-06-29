@@ -1,10 +1,10 @@
-# 📈 Amazon Stock Price Forecasting using ARIMA and ARIMAX
+# Amazon Stock Price Forecasting using ARIMA and ARIMAX
 
 This project uses classical time series models — **ARIMA** and **ARIMAX** — to forecast the closing stock prices of **Amazon Inc.**, integrating **Google Trends** as an exogenous variable in the ARIMAX model.
 
 ---
 
-## 🧠 Objective
+## Objective
 
 - Predict Amazon's daily closing stock price.
 - Compare ARIMA (univariate) and ARIMAX (multivariate with Google Trends).
@@ -12,14 +12,14 @@ This project uses classical time series models — **ARIMA** and **ARIMAX** — 
 
 ---
 
-## 📂 Data Sources
+## Data Sources
 
 - **Amazon Stock Data**: Downloaded from [Kaggle](https://www.kaggle.com/datasets/aenes95/amazon-stock-price-prediction)
 - **Google Trends**: Retrieved from [Google Trends](https://trends.google.com)  for the keyword _"Amazon"_
 
 ---
 
-## 🛠️ Tools and Libraries
+## Tools and Libraries
 
 - `pandas`, `numpy` — data manipulation  
 - `matplotlib`, `seaborn` — visualization  
@@ -28,7 +28,7 @@ This project uses classical time series models — **ARIMA** and **ARIMAX** — 
 
 ---
 
-## ⚙️ Methodology
+## Methodology
 
 1. Data Collection and Merging  
 2. Stationarity Testing using ADF  
@@ -38,7 +38,7 @@ This project uses classical time series models — **ARIMA** and **ARIMAX** — 
 
 ---
 
-## 📊 Performance Comparison
+## Performance Comparison
 
 | Model  |   MSE   |   MAD  |
 |--------|---------|--------|
